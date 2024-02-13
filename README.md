@@ -39,7 +39,7 @@
 <div style="display:flex; flex-direction:column; justify-content:center;">
 <p align='center'>
 
-[![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tstory&theme=dark)](https://github.com/loosie/github-readme-tistory-card)
+[![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tstory&theme=dark)](https://rangyi.tistory.com/)
 </p>
 <p align='center'>
 
