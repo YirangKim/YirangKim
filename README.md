@@ -35,10 +35,16 @@
 </div><br>
 
 <h3 align="center">💻 DEV's log 💻</h3>
-<div style="display:flex; flex-direction:row;">
+<div style="display:flex; flex-direction:column;">
+<div>
 
 [![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tstory&theme=dark)](https://github.com/loosie/github-readme-tistory-card)
+</div>
+<div>
+
 [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&theme=default)](https://rangyi.tistory.com/)
+</div>
+
 <!-- [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&postId=33&theme=default)](https://rangyi.tistory.com/) -->
 </div><br>
 
