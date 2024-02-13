@@ -38,12 +38,7 @@
 
 </div><br>
 
-<p align="center"> 
-  <a href="README.md">English</a> 
-  ·
-  <a href="/docs/README_kr.md">한국어</a> 
-</p>
-<br/>
+
 
 ## 📞 Contact 📞
 <div style="display:flex; flex-direction:row;">
