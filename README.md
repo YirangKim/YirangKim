@@ -40,6 +40,8 @@
 
 [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&theme=default)](https://rangyi.tistory.com/)
 
+[![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&postId=33&theme=tistory)](https://rangyi.tistory.com/)
+
 [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api/badge?name=rangyi&postId=33&theme=tistory)](https://github.com/loosie/github-readme-tistory-card)
 </div><br>
 
