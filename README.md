@@ -37,14 +37,14 @@
 
 <h2 align="center">💻 DEV's log 💻</h2>
 <div style="display:flex; flex-direction:column; justify-content:center;">
-<div>
+<p align='center'>
 
 [![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tstory&theme=dark)](https://github.com/loosie/github-readme-tistory-card)
-</div>
-<div>
+</p>
+<p align='center'>
 
 [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&theme=default)](https://rangyi.tistory.com/)
-</div>
+</p>
 
 <!-- [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&postId=33&theme=default)](https://rangyi.tistory.com/) -->
 </div><br>
