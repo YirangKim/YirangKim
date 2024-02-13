@@ -50,9 +50,8 @@
 </div><br>
 
 
-
-## 📞 Contact 📞
-<div style="display:flex; flex-direction:row;">
+<h2 align="center">📞 Contact 📞</h2>
+<div align="center">
     <a href="mailto:olrang.2@gmail.com">
         <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"> 
     </a>
