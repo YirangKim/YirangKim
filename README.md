@@ -45,7 +45,3 @@
 </p>
 <br/>
 
-> Looking for someone to translate this README.
-
-> Supports simple [Generator](https://capsule-render.vercel.app/).
-> However, we recommend reading the README for more detailed adjustments.
