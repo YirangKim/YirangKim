@@ -5,6 +5,9 @@
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=72C4BF&lines=Hello+World🌎🤖&font=Montserrat&size=30)](https://git.io/typing-svg)
+</div>
+
+<div align="center">
     
 [![GITHUB](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjiholee0&count_bg=%23F29494&title_bg=%232F2E2E&icon=github.svg&icon_color=%23FFFFFF&title=GITHUB&edge_flat=false)](https://github.com/YirangKim/)
 </div>
