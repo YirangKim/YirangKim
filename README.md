@@ -2,10 +2,7 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62"/>
 </p>
 
-<h3 align="center">👩‍💻 My Github Stats 👩‍💻</h3>
-<div align="center">
 [![GITHUB](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjiholee0&count_bg=%23F29494&title_bg=%232F2E2E&icon=github.svg&icon_color=%23FFFFFF&title=GITHUB&edge_flat=false)](https://github.com/YirangKim/)
-</div>
 
 <p align='center'> ☁️SNS list☁️</p>
 <p align='center'>
@@ -28,7 +25,10 @@
   </a>
 </p> 
 
+<h3 align="center">👩‍💻 My Github Stats 👩‍💻</h3>
+<div align="center">
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=YirangKim)](https://github.com/YirangKim/github-readme-stats)
+</div><br>
 
  ## 💻 DEV's log 💻
 <div style="display:flex; flex-direction:row;">
