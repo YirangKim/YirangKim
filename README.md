@@ -36,7 +36,8 @@
 </div><br>
 
 <h2 align="center">💻 DEV's log 💻</h2>
-<div style="display:flex; flex-direction:column; justify-content:center;">
+<div align="center">
+<div style="display:flex; flex-direction:column;">
 <p align='center'>
 
 [![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tstory&theme=dark)](https://rangyi.tistory.com/)
@@ -47,6 +48,7 @@
 </p>
 
 <!-- [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&postId=33&theme=default)](https://rangyi.tistory.com/) -->
+</div>
 </div><br>
 
 
