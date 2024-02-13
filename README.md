@@ -28,7 +28,7 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=YirangKim)](https://github.com/YirangKim/github-readme-stats)
 
-## 💻 DEV's log 💻
+<p align='center'> ## 💻 DEV's log 💻 </p>
 <div style="display:flex; flex-direction:row;">
 
 [![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tstory&theme=dark)](https://github.com/loosie/github-readme-tistory-card)
@@ -45,7 +45,7 @@
 </p>
 <br/>
 
-## 📞 Contact 📞
+<p align='center'> ## 📞 Contact 📞 </p>
 <div style="display:flex; flex-direction:row;">
     <a href="https://www.instagram.com/6_o777/">
         <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white"> 
@@ -55,7 +55,7 @@
     </a>
 </div><br>
     
-## 🔨 Once I've used 🔨
+<p align='center'>  ## 🔨 Once I've used 🔨 </p>
 <div style="display:flex; flex-direction:row;">
     <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"> 
     <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=spring boot&logoColor=white"> 
