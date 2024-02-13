@@ -28,7 +28,7 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=YirangKim)](https://github.com/YirangKim/github-readme-stats)
 
-<p align='center'> ## 💻 DEV's log 💻 </p>
+ ## 💻 DEV's log 💻
 <div style="display:flex; flex-direction:row;">
 
 [![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tstory&theme=dark)](https://github.com/loosie/github-readme-tistory-card)
