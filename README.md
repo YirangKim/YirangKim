@@ -30,19 +30,12 @@
 
 ## 💻 DEV's log 💻
 <div style="display:flex; flex-direction:row;">
-    <a href="https://rangyi.tistory.com/">
-        <img src="https://img.shields.io/badge/
-        Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white"> 
-    </a>
 
 [![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tstory&theme=dark)](https://github.com/loosie/github-readme-tistory-card)
 
-
 [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&theme=default)](https://rangyi.tistory.com/)
+[![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&postId=33&theme=default)](https://rangyi.tistory.com/)
 
-[![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=rangyi&postId=33&theme=tistory)](https://rangyi.tistory.com/)
-
-[![Tistory's Card](https://github-readme-tistory-card.vercel.app/api/badge?name=rangyi&postId=33&theme=tistory)](https://github.com/loosie/github-readme-tistory-card)
 </div><br>
 
 <p align="center"> 
