@@ -35,7 +35,7 @@
 </div><br>
 
 <h3 align="center">💻 DEV's log 💻</h3>
-<div style="display:flex; flex-direction:column; align:center;">
+<div style="display:flex; flex-direction:column; justify-content:center;">
 <div>
 
 [![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tstory&theme=dark)](https://github.com/loosie/github-readme-tistory-card)
