@@ -28,14 +28,14 @@
   </a>
 </p>  -->
 
-<h3 align="center">👩‍💻 My Github Stats 👩‍💻</h3>
+<h2 align="center">👩‍💻 My Github Stats 👩‍💻</h2>
 
 <div align="center">
     
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=YirangKim)](https://github.com/YirangKim/github-readme-stats)
 </div><br>
 
-<h3 align="center">💻 DEV's log 💻</h3>
+<h2 align="center">💻 DEV's log 💻</h2>
 <div style="display:flex; flex-direction:column; justify-content:center;">
 <div>
 
