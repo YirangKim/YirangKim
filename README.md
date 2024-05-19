@@ -75,9 +75,9 @@
     <br>
         <img src="https://img.shields.io/badge/vue.js-30bf92?style=for-the-badge&logo=vue.js&logoColor=white"> 
         <img src="https://img.shields.io/badge/react-65e2f0?style=for-the-badge&logo=react&logoColor=black">
-        <img src="https://img.shields.io/badge/Thymeleaf-65e2f0?style=for-the-badge&logo=thymeleaf&logoColor=black">
-        <img src="https://img.shields.io/badge/Flutter-65e2f0?style=for-the-badge&logo=flutter&logoColor=black">
-        <img src="https://img.shields.io/badge/Dart-65e2f0?style=for-the-badge&logo=dart&logoColor=black">
+        <img src="https://img.shields.io/badge/Thymeleaf-0d4f14?style=for-the-badge&logo=thymeleaf&logoColor=white">
+        <img src="https://img.shields.io/badge/Flutter-0d4675?style=for-the-badge&logo=flutter&logoColor=white">
+        <img src="https://img.shields.io/badge/Dart-187594?style=for-the-badge&logo=dart&logoColor=white">
     <br>
         <img src="https://img.shields.io/badge/Figma-E34F26?style=for-the-badge&logo=figma&logoColor=white">
         <img src="https://img.shields.io/badge/Photoshop-E34F26?style=for-the-badge&logo=photoshop&logoColor=white">
