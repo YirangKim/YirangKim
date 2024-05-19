@@ -46,3 +46,7 @@ jobs:
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }}.git
           git push origin HEAD:main
+          
+      - name: Check ENV
+        run: |
+          echo "GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}"
