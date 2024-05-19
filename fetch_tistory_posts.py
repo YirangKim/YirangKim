@@ -1,21 +1,19 @@
-import feedparser, datetime
+import requests
+from bs4 import BeautifulSoup
 
-tistory_blog_uri="https://rangyi.tistory.com" #Your blog address here
-feed = feedparser.parse(tistory_blog_uri+"/rss")
+BLOG_URL = "https://rangyi.tistory.com"
 
-markdown_text = """# Hello, there!
-Your introduction goes here
-## Recent blog posts
-""" # list of blog posts will be appended here
+response = requests.get(BLOG_URL)
+soup = BeautifulSoup(response.text, 'html.parser')
 
-lst = []
+# 티스토리 최신 글 추출 (티스토리 블로그 HTML 구조에 맞게 수정 필요)
+latest_posts = soup.select('div.post-item a')  # 이 부분은 블로그 HTML 구조에 맞게 조정 필요
 
-
-for i in feed['entries']:
-    dt = datetime.datetime.strptime(i['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")
-    markdown_text += f"[{i['title']}]({i['link']}) - {dt}<br>\n"
-    print(i['link'], i['title'])
-
-f = open("README.md",mode="w", encoding="utf-8")
-f.write(markdown_text)
-f.close()
+with open('latest_posts.md', 'w', encoding='utf-8') as file:
+    file.write("## Latest Tistory Posts\n")
+    for post in latest_posts[:5]:  # 최신글 5개 가져오기
+        title = post.get_text(strip=True)
+        link = post['href']
+        if not link.startswith('http'):
+            link = f"{BLOG_URL}{link}"
+        file.write(f"* [{title}]({link})\n")
