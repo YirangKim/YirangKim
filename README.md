@@ -68,7 +68,8 @@
 </div><br>
 
 <div align="center">
-## 🔨 Once I've used 🔨
+<h2 align="center">🔨 Once I've used 🔨</h2>
+
 <div style="display:flex; flex-direction:row;">
     <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"> 
     <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=spring boot&logoColor=white"> 
