@@ -1,38 +1,52 @@
-# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
-name: README Updater
+name: Update README with Tistory Posts
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
   schedule:
-    - cron: "0 0 */1 * *"
+    - cron: '0 * * * *' # 매시간 실행
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.7'
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install feedparser
-    - name: Update README
-      run: |
-        python main.py
-    - name: Commit README
-      run: |
-        git pull
-        git add .
-        git diff
-        git config --local user.email "YirangKim@gihtub.com"
-        git config --local user.name "GitHub Action"
-        git commit -m "Update README.md"
-        git push
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Fetch Latest Tistory Posts
+        env:
+          TISTORY_BLOG_URL: ${{ secrets.TISTORY_BLOG_URL }}
+        run: |
+          python ./fetch_tistory_posts.py
+
+      - name: Update README.md
+        run: |
+          sed -i '/## Latest Tistory Posts/,$d' README.md
+          cat latest_posts.md >> README.md
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Update README with latest Tistory posts'
+
+      - name: Push changes
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }}.git
+          git push https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }}.git HEAD:main
+     
+      - name: Check ENV
+        run: |
+          echo "ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}"
