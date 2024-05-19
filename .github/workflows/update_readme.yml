@@ -2,7 +2,7 @@ name: Update README with Tistory Posts
 
 on:
   schedule:
-    - cron: '0 * * * *' # 매시간 실행해
+    - cron: '0 * * * *' # 매시간 실행
   push:
     branches:
       - main
@@ -42,11 +42,11 @@ jobs:
 
       - name: Push changes
         env:
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }}.git
-          git push origin HEAD:main
-          
+          git push https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }}.git HEAD:main
+     
       - name: Check ENV
         run: |
-          echo "GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}"
+          echo "ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}"
