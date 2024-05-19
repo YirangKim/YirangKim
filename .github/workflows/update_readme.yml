@@ -40,3 +40,9 @@ jobs:
           git add README.md
           git commit -m 'Update README with latest Tistory posts'
           git push
+
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        run: |
+          git push https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }}.git HEAD:main
