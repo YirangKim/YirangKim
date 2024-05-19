@@ -56,6 +56,9 @@
 </div>
 </div><br>
 
+## Latest Tistory Posts
+
+<!-- 이 섹션은 GitHub Actions에 의해 자동으로 업데이트 됩니다 -->
 
 <h2 align="center">📞 Contact 📞</h2>
 <div align="center">
