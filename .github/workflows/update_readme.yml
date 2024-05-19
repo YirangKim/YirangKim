@@ -2,7 +2,7 @@ name: Update README with Tistory Posts
 
 on:
   schedule:
-    - cron: '0 * * * *' # 매시간 실행
+    - cron: '0 * * * *' # 매시간 실행해
   push:
     branches:
       - main
