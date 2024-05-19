@@ -79,8 +79,8 @@
     <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
         <img src="https://img.shields.io/badge/mariadb-162d4a?style=for-the-badge&logo=mariadb&logoColor=white"> 
     <br>
-        <img src="https://img.shields.io/badge/vue-162d4a?style=for-the-badge&logo=vue&logoColor=white"> 
-            <img src="https://img.shields.io/badge/react-162d4a?style=for-the-badge&logo=react&logoColor=white"> 
+        <img src="https://img.shields.io/badge/vue-30bf92?style=for-the-badge&logo=vue&logoColor=white"> 
+        <img src="https://img.shields.io/badge/react-65e2f0?style=for-the-badge&logo=react&logoColor=black"> 
    <br>
     <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
     <!-- <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> -->
