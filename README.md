@@ -59,9 +59,10 @@
 
 <!-- ## Latest Tistory Posts -->
 <!-- 이 섹션은 GitHub Actions에 의해 자동으로 업데이트 됩니다 -->
+
   
 <h2 align="center">🔨 Once I've used 🔨</h2>
-
+<div align="center">
 <div style="display:flex; flex-direction:row;">
     <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"> 
     <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=spring boot&logoColor=white"> 
@@ -90,6 +91,7 @@
     <!-- <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> -->
     <!-- <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"> -->
 </div><br>
+</div>
 
 <h2 align="center">📞 Contact 📞</h2>
 <div align="center">
