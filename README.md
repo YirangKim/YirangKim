@@ -80,12 +80,12 @@
         <img src="https://img.shields.io/badge/Dart-187594?style=for-the-badge&logo=dart&logoColor=white">
     <br>
         <img src="https://img.shields.io/badge/Figma-E34F26?style=for-the-badge&logo=figma&logoColor=white">
-        <img src="https://img.shields.io/badge/Photoshop-E34F26?style=for-the-badge&logo=photoshop&logoColor=white">
-        <img src="https://img.shields.io/badge/Illustlator-E34F26?style=for-the-badge&logo=illustlator&logoColor=white">
         <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
         <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
         <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
         <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+         <img src="https://img.shields.io/badge/Photoshop-114482?style=for-the-badge&logo=photoshop&logoColor=white">
+        <img src="https://img.shields.io/badge/Iillustration-ed8b1a?style=for-the-badge&logo=illustration&logoColor=white">
    <br>
     <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
     <!-- <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> -->
