@@ -1,4 +1,3 @@
-```md
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=72C4BF&height=260&section=header&text=Yirang%20Kim&fontSize=60&animation=fadeIn&fontAlignY=38&desc=AI%20Developer%20%C2%B7%20Frontend%20Developer%20%C2%B7%20UI%2FUX%20Designer&descAlignY=55&descAlign=50"/>
 </p>
@@ -109,4 +108,3 @@ Vue Frontend · User Flow · Service Design · Figma Prototyping
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"> 
   </a>
 </div>
-```
